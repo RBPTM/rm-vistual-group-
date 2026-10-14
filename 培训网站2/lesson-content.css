@@ -1,0 +1,23 @@
+.article h3{font-size:19px;font-weight:600;margin:30px 0 13px;scroll-margin-top:90px}
+.article h4{font-size:16px;font-weight:600;margin:24px 0 10px;color:#354454;scroll-margin-top:90px}
+.page-outline nav a:nth-child(n+2){font-size:11px}
+.article .lesson-body>h2:first-child{margin-top:0}
+.article .lesson-body>blockquote{margin-block:20px}
+.article .lesson-body pre{max-width:100%}
+.article .lesson-figure{margin:24px 0 31px}
+.article .lesson-figure img{display:block;width:100%;height:auto;border:1px solid #e5ebef;border-radius:5px}
+.article .lesson-figure figcaption{margin-top:9px;color:#78838f;font-size:12px;line-height:1.7}
+.article .color-example{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.article .color-example>div{min-width:0}
+.article .color-example img{aspect-ratio:4/3;object-fit:cover}
+.article .color-example .grayscale-example{filter:grayscale(1)}
+.article .color-example span{display:block;margin-top:6px;color:#536273;font-size:13px;font-weight:600}
+@media(max-width:760px){.article .lesson-figure{margin:20px 0 25px}}
+@media(max-width:520px){.article .color-example{grid-template-columns:1fr}}
+.article .course-showcase{margin-top:38px;padding-top:4px;border-top:1px solid #e9edf1}
+.article .course-showcase h2{margin-top:30px}
+.article .showcase-main img{width:100%;background:#171a1d}
+.article .showcase-notes h3{margin:0 0 6px;font-size:16px}
+.article .showcase-notes p{margin:0 0 17px;color:#64717e;font-size:14px;line-height:1.8}
+
+.image-placeholder{margin:18px 0;padding:22px 18px;border:1px dashed #cbd5df;border-radius:8px;background:#f7f9fb;color:#6b7785;text-align:center;font-size:14px;line-height:1.8}

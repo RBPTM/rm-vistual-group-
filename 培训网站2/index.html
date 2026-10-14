@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="RoboMaster 视觉专项培训第二周：传统视觉方法、色彩空间、分割、形态学、轮廓、灯条筛选与装甲板配对。">
+  <meta name="color-scheme" content="light">
+  <title>专项培训 2 · RoboMaster 视觉</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="lesson-content.css">
+  <script src="content.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#article">跳到正文</a>
+  <div class="mobile-shade" id="mobile-shade" hidden></div>
+  <aside class="sidebar" id="sidebar" aria-label="课程目录">
+    <a class="brand" href="#intro" aria-label="返回课程介绍"><span class="brand-mark">CV</span><span><strong>RoboMaster</strong><small>视觉培训 · 第二周</small></span></a>
+    <label class="search-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><input id="search" type="search" placeholder="搜索课程内容…" aria-label="搜索章节与正文" autocomplete="off"><kbd aria-hidden="true">/</kbd></label>
+    <div class="search-status" id="search-status" role="status" aria-live="polite" hidden></div>
+    <nav class="course-nav" id="course-nav" aria-label="章节"></nav>
+    <div class="sidebar-footer"><div class="progress-label"><span>我的学习进度</span><span id="progress-label">0 / 0</span></div><progress id="progress" max="100" value="0" aria-label="已完成章节"></progress><p>从像素特征逐步走向几何目标。</p></div>
+  </aside>
+  <div class="main-shell">
+    <header class="topbar"><div class="topbar-left"><button class="icon-button" id="menu-button" aria-label="展开或收起目录" aria-controls="sidebar" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button><span class="breadcrumb" id="breadcrumb">开始之前 / 课程介绍</span></div><div class="toolbar"><span class="offline-label"><span></span>离线讲义</span><button class="text-button" id="font-down" aria-label="缩小正文字号">A−</button><button class="text-button" id="font-up" aria-label="放大正文字号">A+</button><button class="icon-button" id="print-button" aria-label="打印当前章节"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M7 8V3h10v5M7 17H4V9h16v8h-3M7 14h10v7H7z"/><path d="M17 11h1"/></svg></button></div></header>
+    <div class="reading-layout"><main id="main-content"><article class="article" id="article" tabindex="-1"></article><div class="lesson-actions"><button class="complete-button" id="complete-button" aria-pressed="false"><span aria-hidden="true">✓</span><span id="complete-label">标记本节已完成</span></button><span id="lesson-position"></span></div><nav class="page-navigation" aria-label="上一节和下一节"><a id="previous-link"><small>← 上一节</small><strong></strong></a><a id="next-link"><small>下一节 →</small><strong></strong></a></nav><footer class="reading-footer">以《专项培训_2.md》为主稿整理 · 保留章节、代码示例和练习</footer></main><aside class="page-outline" aria-label="本页目录"><p>本页内容</p><nav id="page-outline"></nav><a class="back-top" href="#article">↑ 回到顶部</a></aside></div>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+  <noscript><p class="no-script">请启用浏览器 JavaScript 后阅读。本站所有内容均保存在本地，不需要联网。</p></noscript>
+</body>
+</html>
